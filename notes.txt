@@ -1,0 +1,13 @@
+-> The reason why we need a secret key is because react wants to be able to identify each element individually incase any of their value  changes and should any of the element's value change, react doesn't re-render every element but only that element that now has a new value.
+
+-> When react renders our code for the first time in the DOM, it calls whatever we pass into the componentdidmount. componentdidmount => lifecycle
+
+-> 'state' lives in one location and trickles down as 'props'
+
+-> * if you want to perform an action immediately after the 'setState', then you have to do that in the second parameter that accepts a callback function
+
+-> props is an object
+
+------
+checkout: lifecycle methods
+-------
